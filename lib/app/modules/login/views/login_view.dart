@@ -12,11 +12,11 @@ class LoginView extends GetView<LoginController> {
       body: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 24.0),
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                const SizedBox(height: 80),
+                const SizedBox(height: 40),
                 const Text(
                   'Hello!',
                   style: TextStyle(
@@ -106,7 +106,7 @@ class LoginView extends GetView<LoginController> {
                       style: TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
-                        color: Colors.black,
+                        color: Colors.white,
                       ),
                     ),
                   ),
@@ -136,7 +136,7 @@ class LoginView extends GetView<LoginController> {
                     _socialLoginButton('assets/images/facebook.png', controller.loginWithFacebook),
                   ],
                 ),
-                const SizedBox(height: 48),
+                const SizedBox(height: 32),
                 // Register Now
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
