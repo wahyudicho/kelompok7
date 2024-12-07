@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "23438744641",
+    "project_id": "workoutify-8dd4f",
+    "storage_bucket": "workoutify-8dd4f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23438744641:android:8b368e3df255cb963efac0",
+        "android_client_info": {
+          "package_name": "com.gilang"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Ly9xGgYMWcIscnlSK1BJfss4ERf879M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23438744641:android:c1db9a689808d29d3efac0",
+        "android_client_info": {
+          "package_name": "com.kelompok7.workoutify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Ly9xGgYMWcIscnlSK1BJfss4ERf879M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
