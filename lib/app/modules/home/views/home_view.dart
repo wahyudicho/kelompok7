@@ -21,4 +21,4 @@ class HomeView extends GetView<HomeController> {
       ),
     );
   }
-}vvvvv
+}
