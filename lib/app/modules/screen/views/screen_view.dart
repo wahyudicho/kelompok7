@@ -51,7 +51,7 @@ class ScreenView extends GetView<ScreenController> {
                     style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Color(0xFF003049),
                     ),
                   ),
                 ),
@@ -74,7 +74,7 @@ class ScreenView extends GetView<ScreenController> {
                     style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
-                      color: Colors.amber,
+                      color: Color(0xFF003049),
                     ),
                   ),
                 ),
