@@ -6,6 +6,8 @@ import '../modules/login/bindings/login_binding.dart';
 import '../modules/login/views/login_view.dart';
 import '../modules/register/bindings/register_binding.dart';
 import '../modules/register/views/register_view.dart';
+import '../modules/schedule/bindings/schedule_binding.dart';
+import '../modules/schedule/views/schedule_view.dart';
 import '../modules/screen/bindings/screen_binding.dart';
 import '../modules/screen/views/screen_view.dart';
 
@@ -38,6 +40,11 @@ class AppPages {
       name: _Paths.REGISTER,
       page: () => const RegisterView(),
       binding: RegisterBinding(),
+    ),
+    GetPage(
+      name: _Paths.SCHEDULE,
+      page: () => const ScheduleView(),
+      binding: ScheduleBinding(),
     ),
   ];
 }
